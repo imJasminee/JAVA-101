@@ -27,3 +27,17 @@ True && False || 8-2+3 == 1 → False || 9 == 1 → False || False → False
 (intArr[4] * intArr[1]) % intArr[2] = -5*-4 % 2 = 20 % 2 = 0
 !(doubleArr[2] - doubleArr[3] < doubleArr[0]) = !(9.8787 - 0.003 < 6.4) = !(False) = True 
 
+sumBelow Problems 
+  sumBelow(6) -> 10
+  sumBelow(3) -> 3
+  sumBelow(-1) -> 0
+
+sumArray Problems 
+  allDivisible([3, 6, 0, 9], 3) → [3, 6, 0, 9] 
+  allDivisible([100, 225, 802, 445], 5) → [100, 225, 445] 
+  allDivisible([28, 8, 16, 2, 4004, 20], 4) → [28, 8, 16, 4004, 20] 
+
+allEven
+n
+nEven
+next
