@@ -1,0 +1,29 @@
+Arithmetic Operator questions: 
+((10 + 4) - 8) % 2 = 6 % 2 = 0 
+(11 < 11) || (23 % 2 == 1) → True 
+(14 - 11) * 5 % 6 = 3*5 % 6 = 15 % 6 = 3
+(11 % 4 / 2 <= 1) && (17 % 2 != 0) = 3/2 <= 1 && 1 != 0 → False 
+
+Function Questions:
+Write a function that takes as an input an integer n and returns that integer modulo 4.
+def f(var n){
+		return n % 4 
+}
+
+Write a function called neither that takes in three inputs: a value v, and two functions f and g (both of which return booleans). The neither function should return whether both f and g return false when called with v as an input.
+
+	def neither(var v, f, g){
+		boolean a = f(v); 
+		boolean b = g(v); 
+	if (a == false && b == false): 
+		return true 
+	else: 
+		return false 
+
+Array Problems 
+boolArr[3] && boolArr[1] → True && False → False
+boolArr[5] && (boolArr[2] || (intArr[0] - intArr[2] + intArr[5] == 1))
+True && False || 8-2+3 == 1 → False || 9 == 1 → False || False → False 
+(intArr[4] * intArr[1]) % intArr[2] = -5*-4 % 2 = 20 % 2 = 0
+!(doubleArr[2] - doubleArr[3] < doubleArr[0]) = !(9.8787 - 0.003 < 6.4) = !(False) = True 
+
