@@ -78,4 +78,14 @@ def sumOutputs(var arr)
 	return sum 
 }
 
-7. 
+7. Write a function that takes an array arr and uses a for each loop to determine 
+if any of the values in an array arr are divisible by 7.
+
+def divisibleBySeven(var arr){
+	var divisible = true 
+	for (var n : arr){
+		var nDivisible = (n % 7 == 0)
+		divisible = divisible && nDivisible 
+	}
+	return divisible 
+}
